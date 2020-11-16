@@ -5,6 +5,11 @@ public class Prize {
     private boolean goat;
     private boolean car;
 
+    public Prize(boolean goat, boolean car) {
+        this.goat = goat;
+        this.car = car;
+    }
+
     public boolean isGoat() {
         return goat;
     }
